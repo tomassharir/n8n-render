@@ -7,9 +7,11 @@ services:
     buildCommand: ""
     startCommand: npx n8n
     envVars:
+      - key: PORT
+        value: 5678
       - key: N8N_BASIC_AUTH_ACTIVE
         value: "true"
       - key: N8N_BASIC_AUTH_USER
         value: "tom"
       - key: N8N_BASIC_AUTH_PASSWORD
-        value: "Ts9192939495!"
+        value: "yourstrongpassword"
